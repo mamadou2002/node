@@ -1,0 +1,10 @@
+> const rsp = attendre fetch("https://nodejs.org"); 
+undefined 
+> const rspBody = attendre rsp.text(); 
+undefined 
+> console.log("Taille du corps de la réponse=", rspBody.length); 
+Taille du corps de la réponse = 14692 
+indéfini 
+> console.log("Response status code=", rsp.status); 
+Code d'état de réponse = 200 
+indéfini
